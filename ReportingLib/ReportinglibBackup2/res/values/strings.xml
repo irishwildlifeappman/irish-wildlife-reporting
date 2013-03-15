@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  >string name="hello">Hello World, DaubentonProjectActivity!</string -->
+    <string name="app_name">Butterflies</string>
+   <string name="hello">Hello, Android! I am a string resource 7777!</string>
+   <string name="Description">Description</string>
+   <string name="Trees">Trees</string>
+   <string name="Hedgerow">Hedgerow</string>
+   <string name="ReedsGrasses">Tall Reeds/Grasses</string>
+    <string name="Presence">Presence</string>
+     <string name="Lights">Lights</string>
+       <string name="name">Name:</string>
+   <string name="waterwayname">Waterwayname:</string>
+     <string name="skill">Skill Level:</string>
+   <string name="wind">Wind:</string>
+   <string name="rain">Rain:</string>
+   <string name="cloud">Cloud:</string>
+   <string name="send">Send</string>
+    <string name="wildlife">Wildlife Seen:</string>
+   
+   <string name="Nearside">Nearside</string>
+   <string name="Farside">Farside</string>
+   <string name="Save">Save</string>
+   <string name="Cancel">Cancel</string>
+   <string name="gotosite">Go to site, Distance not available</string>
+   <string name="distanceToSite">-1</string>
+   <string name="Next">Next</string>
+   <string name="pass">PASS</string>
+   <string name="unsure">UNSURE</string>
+   <string name="executesurvey">Start Survey Timer</string>
+   <string name="newsurvey">New Survey</string>
+   <string name="playsound">Play Sound</string>
+   <string name="help">Help!</string>
+   <string name="Picture">Picture</string>
+   <string name="takepic">Take Picture</string>
+   <string name="minus">-</string>
+   <string name="plus">+</string>
+   <string name="zero">0</string>
+   <string name="updatelocation">Update Location</string>
+   <string name="newsitetxt">Site Name:</string>
+   <string name="sitename">sitename</string>
+   <string name="Add">Add</string>
+   <string name="newtext">New</string>
+   <string name="modify">modify</string>
+   <string name="location">Location:</string>
+   <string name="batdetector">Bat Detector:</string>
+   <string name="experience">Experience</string>
+   <string name="sac">SAC</string>
+   <string name="nha">NHA/SSSI:</string>
+   <string-array name="skill_array"> 
+          <item>Poor</item>   
+          <item>OK</item>    
+          <item>Good</item>   
+          <item>Very Good</item>   
+   </string-array>
+    <string-array name="experience_array"> 
+          <item>Less than 1 year</item>   
+          <item>2-3 Years</item>    
+          <item>> 3 years</item>   
+   </string-array>   
+   <string-array name="wind_array"> 
+          <item>Calm</item>   
+          <item>Light</item>    
+          <item>Breezy</item>   
+   </string-array>  
+    <string-array name="cloud_array"> 
+          <item>Clear(0-1/3)</item>   
+          <item>Patchy(1/3-2/3)</item>    
+          <item>Full(3/3)</item>   
+   </string-array>   
+    <string-array name="rain_array"> 
+          <item>Dry</item>   
+          <item>Drizzle</item>    
+          <item>Light Rain</item>   
+   </string-array>      
+          <string name="datestring">Date:</string>    
+          <string name="starttime">Start Time:</string>    
+          <string name="endtimestr">End Time</string>    
+          <string name="temp">Temperature</string>    
+          <string name="copyright">Pictures © DHardiman </string>    
+          <string name="senddata">Send Data</string>    
+          <string name="dummy">DUMMY</string>
+            <string name="recorddetails">Record Details</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 	<item android:titleCondensed="Summary" android:title="Summary" android:id="@+id/itemsummary">
+    </item>
+    <item android:titleCondensed="Remove" android:title="Remove" android:id="@+id/itemremove">
+    </item>
+   <item android:titleCondensed="History" android:title="History" android:id="@+id/itemhistory">
+    </item>
+    <item android:titleCondensed="Del Hist." android:title="Delete History" android:id="@+id/itemdeletehistory">
+    </item>
+</menu>

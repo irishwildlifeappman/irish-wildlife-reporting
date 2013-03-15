@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="1">
+
+  <GridView
+      android:id="@+id/butterflygridview"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="4dp"
+   	  android:verticalSpacing="3dp"
+      android:horizontalSpacing="3dp"
+      android:layout_weight="0.99"
+      android:numColumns="2"
+       android:stretchMode="columnWidth"
+      >
+</GridView>
+<!--  android:layout_width="fill_parent"
+      android:layout_height="wrap_content" -->>
+  <LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:weightSum="1" >
+
+  <Button android:text="Submit" android:id="@+id/submitButton" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.5" ></Button>
+   <Button android:text="Help!" android:id="@+id/helpButton" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.5"></Button>
+  </LinearLayout>  
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="Press menu for more options"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+  
+</LinearLayout>

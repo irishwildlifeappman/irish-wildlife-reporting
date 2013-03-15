@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_gravity="fill" 
+  android:layout_width="fill_parent"
+  android:scaleType="fitCenter"
+  android:layout_height="fill_parent" android:weightSum="1" android:orientation="vertical">
+    <ImageView  android:id="@+id/butterflypic" 
+        android:layout_gravity="fill" 
+        android:layout_height="fill_parent"
+         android:layout_width="fill_parent" 
+         android:scaleType="fitCenter"
+         android:adjustViewBounds="true"
+         android:layout_weight="0.2"></ImageView>
+    <TextView android:text="TextView" android:layout_width="fill_parent"  
+        android:id="@+id/butterflyname"
+          android:layout_height="fill_parent"
+           android:layout_weight="0.80"
+             android:layout_gravity="fill_horizontal"></TextView>
+    
+</LinearLayout>

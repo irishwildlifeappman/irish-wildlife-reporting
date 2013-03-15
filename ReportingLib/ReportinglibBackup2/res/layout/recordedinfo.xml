@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"    
+ android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/scrollLayoutsite">  
+ <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="1"
+  >
+
+ <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TextView android:id="@+id/textViewname" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Name" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+        <EditText android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/editTextname" android:layout_width="wrap_content">           
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TextView android:id="@+id/textViewref" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Grid Ref" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+
+        <Button
+            android:id="@+id/usemap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use Map" />
+
+        <EditText android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/editTextref" android:layout_width="wrap_content">           
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TextView android:id="@+id/textViewlocation" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Location" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+        <EditText android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/editTextlocation" android:layout_width="wrap_content">           
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout4" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TextView android:id="@+id/textViewspecies" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Species Name" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+        <EditText android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/editTextspecies" android:layout_width="wrap_content">           
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout5" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TextView android:id="@+id/textViewname2" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Comment" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+        <AutoCompleteTextView android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/editTextcomment" android:layout_width="wrap_content">           
+        </AutoCompleteTextView>
+    </LinearLayout>
+     <LinearLayout android:id="@+id/linearLayout6" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TextView android:id="@+id/textViewdate" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Date" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+
+        <Button
+            android:id="@+id/datebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+        
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout7" android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+        <TextView android:id="@+id/textViewtime" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Time" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+
+         <Button
+            android:id="@+id/timebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/advancedbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advanced" />
+    
+    <LinearLayout android:id="@+id/linearLayout8" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+    
+   <LinearLayout android:id="@+id/linearLayout9" android:layout_height="wrap_content" android:layout_width="fill_parent" >
+
+        <TextView android:id="@+id/textViewhabitat" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Habitat" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+
+        <Spinner
+            android:id="@+id/habitatspinner"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+     <LinearLayout android:id="@+id/linearLayout9" android:layout_height="wrap_content" android:layout_width="fill_parent" >
+
+        <TextView android:id="@+id/textViewhabitat" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Habitat 2" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+
+        <Spinner
+            android:id="@+id/habitatspinner2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+     <LinearLayout android:id="@+id/linearLayout10" android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+        <TextView android:id="@+id/textViewNumber" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Number Seen" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+
+         <EditText
+             android:id="@+id/editTextnumber"
+             android:layout_width="0dip"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:ellipsize="none"
+             android:numeric="integer" >
+
+ </EditText>       
+        
+    </LinearLayout>
+     <LinearLayout android:id="@+id/linearLayout11" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TextView android:id="@+id/textViewemail" android:textAppearance="?android:attr/textAppearanceLarge" android:text="E-Mail" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+        <EditText android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/editTextemail" android:layout_width="wrap_content">           
+        </EditText>
+    </LinearLayout>
+      <LinearLayout android:id="@+id/linearLayout12" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TextView android:id="@+id/textViewlifestage" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Life Stage" android:layout_height="wrap_content" android:layout_width="144dp"></TextView>
+        <AutoCompleteTextView android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/editTextlifestage" android:layout_width="wrap_content">           
+        </AutoCompleteTextView>
+    </LinearLayout>
+   </LinearLayout>
+    <Button android:id="@+id/save" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="0.11" android:onClick="onSaveClick" android:text="@string/Save"></Button>
+ </LinearLayout>
+ </ScrollView>
+

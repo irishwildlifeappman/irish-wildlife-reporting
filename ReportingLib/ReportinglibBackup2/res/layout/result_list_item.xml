@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listlayout"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_weight="0.5"
+    android:weightSum="1" >
+
+    <CheckBox
+        android:id="@+id/senditem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.4"
+        android:padding="10dp"
+        android:text="date"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/species"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.52"
+        android:padding="10dp"
+        android:text="Species"
+        android:textSize="15sp" >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/editbutton"
+        android:layout_width="112dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:text="Edit" />
+
+</LinearLayout>
