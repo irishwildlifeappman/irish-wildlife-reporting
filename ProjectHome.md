@@ -1,0 +1,1 @@
+This project contains the source code to create so android apps to create apps to allow people to report wildlife in Ireland
