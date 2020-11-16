@@ -12,6 +12,7 @@ import android.content.res.AssetManager;
 import android.content.res.Resources;
 
 public class Constants {
+	public static String HELLO = "HELLO";
 	
 	public static void init(Context mContext)
 	{
